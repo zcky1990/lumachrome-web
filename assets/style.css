@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'marsha';
+    src: url("~/assets/fonts/marsha_belle_demo_version-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dosis';
+    src: url("~/assets/fonts/dosis.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url("~/assets/fonts/playfairdisplay.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Major Mono Display';
+    src: url("~/assets/fonts/MajorMonoDisplay-Regular.ttf") format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-dosis {
+    font-family: "Dosis";
+}
+
+.font-playfair-display {
+    font-family: "Playfair Display";
+}
+
+.font-marsha {
+    font-family: "marsha";
+}
+
+.font-major-mono-display{
+    font-family: "Major Mono Display";
+}
